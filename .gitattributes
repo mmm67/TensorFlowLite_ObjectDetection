@@ -1,0 +1,5 @@
+# Exclude Gradle build files and sources from language detection
+.gradle/* linguist-vendored
+build/* linguist-vendored
+
+*.java linguist-detectable=false
